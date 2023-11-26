@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -935,6 +935,7 @@ form label {
 .simply-countdown {
   /* The countdown */
   margin-bottom: 2em;
+  font-weight: 300;
 }
 
 .simply-countdown > .simply-section {
@@ -1845,6 +1846,10 @@ form label {
    color: #FFF; 
    opacity: 0;
   }
+}
+
+.heading-bottom {
+  bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
