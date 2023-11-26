@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -1838,6 +1838,13 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+
+@media screen and (max-width: 600px) {
+  #heading-duplicate {
+   color: #FFF; 
+   opacity: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
