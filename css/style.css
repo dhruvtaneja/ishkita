@@ -1000,7 +1000,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1013,7 +1013,7 @@ form label {
   #fh5co-couple,
   #fh5co-gallery,
   .fh5co-section {
-    padding: 3em 0;
+    padding: 2em 0 1em;
   }
 }
 
@@ -1056,6 +1056,12 @@ form label {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .couple-separator {
+    display: none;
+  }
+}
+
 .couple-half {
   width: 50%;
   float: left;
@@ -1068,7 +1074,8 @@ form label {
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
   color: #F14E95;
-  font-size: 30px;
+  font-size: 48px;
+  font-weight: bold;
 }
 .couple-half .groom, .couple-half .bride {
   float: left;
