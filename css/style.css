@@ -418,14 +418,16 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 10px;
   }
 }
-#fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 20px;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  display: block;
+  font-family: "Sacramento", Arial, serif;
+  font-size: 36px;
+  font-weight: bolder;
+  /* display: block; */
   padding-bottom: 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 2px;
 }
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
@@ -433,6 +435,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap span {
   display: block;
   color: rgba(255, 255, 255, 0.8);
+  /* font-family: "Sacramento", Arial, serif; */
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
@@ -1650,6 +1653,10 @@ form label {
   .fh5co-nav-toggle {
     display: block;
   }
+
+  .cover-logo {
+    display: none;
+  }
 }
 
 .btn {
@@ -1857,6 +1864,20 @@ form label {
 
 .heading-bottom {
   bottom: 0;
+}
+
+.invitation {
+  font-family: "Sacramento", Arial, serif;
+  color: #CCCCCC;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.couple-separator {
+  font-family: "Sacramento", Arial, serif;
+  color: #CCCCCC;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
